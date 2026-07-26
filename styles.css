@@ -607,6 +607,28 @@ h1 {
 .included li::before {
   color: #8ce5ff;
 }
+.confidentiality-note {
+  background: rgba(3, 27, 57, 0.38);
+  border: 1px solid rgba(168, 230, 255, 0.32);
+  border-left: 4px solid #8ce5ff;
+  border-radius: 16px;
+  margin-top: 36px;
+  padding: 28px 30px;
+}
+
+.confidentiality-note p {
+  color: #d8e8f8;
+  margin: 0;
+  max-width: 1000px;
+}
+
+.confidentiality-note p + p {
+  margin-top: 12px;
+}
+
+.confidentiality-note strong {
+  color: var(--white);
+}
 
 .contact-row {
   align-items: center;
